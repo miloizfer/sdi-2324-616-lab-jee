@@ -34,6 +34,7 @@ public class GreetingServlet extends HttpServlet {
             out.println("Visits:"+contador+"<br>");
         }
     }
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws
             ServletException, IOException {
